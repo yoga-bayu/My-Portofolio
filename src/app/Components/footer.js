@@ -57,8 +57,8 @@ const Footer = () => {
         <div>
           <h2 className="text-lg sm:text-xl font-bold mb-3">Alamat</h2>
           <p className="text-gray-400 text-sm sm:text-base">
-            Jl. Contoh No.123<br />
-            Kota Anda, Provinsi<br />
+            Jl Sukamantri<br />
+            Pasar Kemis, Kab. Tangerang<br />
             Indonesia
           </p>
         </div>
