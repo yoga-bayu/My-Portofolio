@@ -1,9 +1,11 @@
 'use client'
+
+import Head from 'next/head'
 import { motion } from 'framer-motion'
 import Navbar from './Components/navbar'
 import AboutSection from './about'
 import Deskripsi from './deskripsi'
-import HomeSection from './home' // Ini adalah komponen custom berisi teks + foto kamu
+import HomeSection from './home'
 import ProjectSection from './project'
 import Cards from './card'
 import Skill from './bahasa'
@@ -27,21 +29,28 @@ const Section = ({ id, title, bg }) => (
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-      <div className="pt-0 scroll-smooth">
-        <HomeSection /> {/* Ini ganti dari <Home /> */}
-        <AboutSection />
-        <Deskripsi />
-        <ProjectSection/>
-        <Cards />
-        <Skill />
-        <Keunggulan />
-        <Clients />
-        <Cta />
-        <Footer />
-        {/* <Section id="contact" title="Contact" bg="bg-white" /> */}
-      </div>
-    </main>
+    <>
+      <Head>
+        <title>Dev Nexus</title>
+        <meta name="description" content="Deskripsi singkat website kamu" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      
+      <main>
+        <Navbar />
+        <div className="pt-0 scroll-smooth">
+          <HomeSection />
+          <AboutSection />
+          <Deskripsi />
+          <ProjectSection />
+          <Cards />
+          <Skill />
+          <Keunggulan />
+          <Clients />
+          <Cta />
+          <Footer />
+        </div>
+      </main>
+    </>
   )
 }
