@@ -17,7 +17,7 @@ export default function About() {
       >
         {/* Judul */}
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">
-          Profile <span className="text-amber-500">Perusahaan</span>
+          Dev<span className="text-amber-500">Nexus</span>
         </h1>
 
         {/* Konten utama */}

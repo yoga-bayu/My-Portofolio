@@ -32,7 +32,7 @@ const CallToAction = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <Link href="/contact">
+          <Link href="https://wa.me/628138830020">
             <button className="bg-white text-amber-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-amber-100 transition">
               Hubungi Saya
             </button>

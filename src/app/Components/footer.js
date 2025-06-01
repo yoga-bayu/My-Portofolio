@@ -12,22 +12,22 @@ const Footer = () => {
         <div>
           <h2 className="text-lg sm:text-xl font-bold mb-3">Portofolio</h2>
           <div className="flex justify-center md:justify-start space-x-4 mt-4">
-            <a href="https://wa.me/nomor-kamu" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/6281388230020" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="text-xl sm:text-2xl hover:text-green-400 transition" />
             </a>
-            <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/yogabayu_20/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-xl sm:text-2xl hover:text-pink-400 transition" />
             </a>
-            <a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="text-xl sm:text-2xl hover:text-sky-400 transition" />
-            </a>
-            <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">
+            </a> */}
+            <a href="https://www.linkedin.com/in/yoga-bayu-942a322b6/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-xl sm:text-2xl hover:text-blue-500 transition" />
             </a>
-            <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/yoga-bayu" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-xl sm:text-2xl hover:text-gray-300 transition" />
             </a>
-            <a href="https://facebook.com/username" target="_blank" rel="noopener noreferrer">
+            <a href="https://web.facebook.com/yoga.bayu.9279" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="text-xl sm:text-2xl hover:text-blue-600 transition" />
             </a>
           </div>

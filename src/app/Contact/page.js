@@ -5,12 +5,12 @@ import Image from 'next/image'
 
 const clients = [
   {
-    name: 'My Shirt',
-    image: '/myshirt.png', // Ganti dengan logo atau inisial perusahaan
+    name: 'Fix Gadget',
+    image: '/fixgadget.png', // Ganti dengan logo atau inisial perusahaan
   },
   {
-    name: 'Liceria Kitchen',
-    image: '/liceria.png',
+    name: 'Crisp & Crush',
+    image: '/crispcrush.png',
   },
   {
     name: 'Print Shop',

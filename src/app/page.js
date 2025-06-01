@@ -13,6 +13,7 @@ import Keunggulan from './keunggulan'
 import Clients from './Contact/page'
 import Cta from './cta'
 import Footer from './Components/footer'
+import MyPartnerPage from './patner'
 
 const Section = ({ id, title, bg }) => (
   <motion.section
@@ -46,6 +47,7 @@ export default function Home() {
           <Cards />
           <Skill />
           <Keunggulan />
+          <MyPartnerPage />
           <Clients />
           <Cta />
           <Footer />

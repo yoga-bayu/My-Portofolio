@@ -79,10 +79,10 @@ const HomeSection = () => {
               </p>
 
               <div className="mt-6 flex gap-4 sm:gap-5">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
+                <a href="https://www.instagram.com/yogabayu_20/" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
                   <FaInstagram />
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
+                <a href="https://web.facebook.com/yoga.bayu.9279" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
                   <FaFacebookF />
                 </a>
                 <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
@@ -92,7 +92,7 @@ const HomeSection = () => {
 
               <div className="mt-6">
                 <a
-                  href="/cv.pdf"
+                  href="/CV_Yoga_Bayu.pdf"
                   download
                   className="inline-block px-4 py-2 sm:px-6 sm:py-2 border-2 border-[#FFB100] text-[#FFB100] font-semibold rounded-md transition hover:bg-[#FFB100] hover:text-black hover:drop-shadow-[0_0_10px_#f59e0b]"
                 >
