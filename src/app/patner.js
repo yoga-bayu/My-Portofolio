@@ -19,6 +19,11 @@ const partners = [
     name: "Bintang",
     link: "https://www.catatanbintang.my.id/",
     logo: "/bintang.png"
+  },
+  {
+    name: "Dede Zakaria",
+    link: "https://zakarial.my.id/",
+    logo: "/zakaria.png"
   }
 ];
 
