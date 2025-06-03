@@ -31,7 +31,7 @@ const Navbar = () => {
 
           {/* Hamburger */}
           <div className="md:hidden flex items-center">
-            <button onClick={toggleMenu} className="text-gray-700 hover:text-indigo-600">
+            <button onClick={toggleMenu} className="text-gray-700 hover:text-amber-800">
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="block text-gray-700 hover:text-indigo-600 text-lg font-medium transition"
+              className="block text-gray-700 hover:text-amber-800 text-lg font-medium transition"
               onClick={() => setIsOpen(false)}
             >
               {item}

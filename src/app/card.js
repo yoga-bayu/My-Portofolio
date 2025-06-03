@@ -68,6 +68,28 @@ const projects = [
       { src: "/graphql.png", size: "w-10 h-10" }
     ],
     link: "/ecommerce-v3"
+  },
+  {
+    title: "Inventory Management System",
+    description: "website yang menampilkan system inventory management",
+    image: "/ims.png",
+    thumbnails: [
+      { src: "/react.png", size: "w-9 h-9" },
+      { src: "/remix.png", size: "w-9 h-9" },
+      { src: "/tailwind.png", size: "w-12 h-[30px]" }
+    ],
+    link: "https://inventory-management-system-five-kappa.vercel.app/"
+  },
+  {
+    title: "website Usaha",
+    description: "website yang menampilkan produk penjualan secara online",
+    image: "/sumberpasir.png",
+    thumbnails: [
+      { src: "/react.png", size: "w-9 h-9" },
+      { src: "/gatsby2.png", size: "w-8 h-8" },
+      { src: "/tailwind.png", size: "w-12 h-[30px]" }
+    ],
+    link: "https://website-sumber-pasir.vercel.app/"
   }
 ];
 
