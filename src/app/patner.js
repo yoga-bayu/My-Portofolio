@@ -29,17 +29,17 @@ const partners = [
 
 const MyPartnerPage = () => {
   return (
-    <section className="min-h-screen bg-white flex flex-col items-center justify-center px-4">
+    <section className="min-h-screen bg-white flex flex-col items-center justify-center px-4 py-12">
       <h1 className="text-3xl font-bold text-gray-800 mb-12">My Partners</h1>
 
-      <div className="flex flex-col md:flex-row gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-6xl">
         {partners.map((partner, index) => (
           <motion.a
             key={index}
             href={partner.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white border rounded-xl p-6 shadow-md hover:shadow-lg transition duration-300 flex flex-col items-center w-60"
+            className="bg-white border rounded-xl p-6 shadow-md hover:shadow-lg transition duration-300 flex flex-col items-center"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.2, duration: 0.6 }}
@@ -52,7 +52,7 @@ const MyPartnerPage = () => {
                 className="rounded-full object-cover border"
               />
             </div>
-            <span className="text-lg font-medium text-gray-800">
+            <span className="text-lg font-medium text-gray-800 text-center">
               {partner.name}
             </span>
           </motion.a>

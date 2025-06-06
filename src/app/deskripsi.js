@@ -17,7 +17,7 @@ export default function About() {
       >
         {/* Judul */}
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">
-          Dev<span className="text-amber-500">Nexus</span>
+          Fix<span className="text-amber-500">Code</span>
         </h1>
 
         {/* Konten utama */}
@@ -30,10 +30,10 @@ export default function About() {
             className="md:w-1/2 text-center md:text-left"
           >
             <h2 className="text-lg sm:text-xl md:text-3xl font-semibold text-gray-800 mb-4">
-              Dev Nexus - Digital Solutions Expert
+              Fix Code - “Fix Your Code, Fuel Your Growth”
             </h2>
             <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
-              Dev Nexus adalah perusahaan yang bergerak di bidang layanan digital dan teknologi informasi, 
+              Fix Code adalah perusahaan yang bergerak di bidang layanan digital dan teknologi informasi, 
               yang berfokus pada jasa pemrograman, perbaikan kode, digital marketing, SEO web, dan networking. 
               Kami hadir untuk memberikan solusi inovatif bagi bisnis dan individu yang ingin berkembang di 
               era digital dengan teknologi yang handal dan efektif.
@@ -66,7 +66,7 @@ export default function About() {
         >
           <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mt-6">History</h3>
           <p className="mt-4 text-sm sm:text-base md:text-lg text-gray-600">
-            Dev Nexus didirikan pada 1 Maret 2025 dengan visi untuk menghadirkan solusi digital terbaik bagi bisnis dan individu yang ingin memiliki website profesional. Berawal dari sebuah ide sederhana untuk membantu UMKM dan perusahaan dalam membangun kehadiran online, Dev Nexus berkembang menjadi penyedia jasa pembuatan website yang inovatif dan berorientasi pada kualitas.
+            Fix Code didirikan pada 1 Maret 2025 dengan visi untuk menghadirkan solusi digital terbaik bagi bisnis dan individu yang ingin memiliki website profesional. Berawal dari sebuah ide sederhana untuk membantu UMKM dan perusahaan dalam membangun kehadiran online, Dev Nexus berkembang menjadi penyedia jasa pembuatan website yang inovatif dan berorientasi pada kualitas.
           </p>
 
           <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mt-6">Keunggulan Kami</h3>
@@ -78,7 +78,7 @@ export default function About() {
             <li>Keamanan dan stabilitas sistem yang terjamin</li>
           </ul>
 
-          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mt-6">Mengapa Dev Nexus?</h3>
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mt-6">Mengapa Fix Code?</h3>
           <ul className="list-disc text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed ml-6 mt-2">
             <li><span className="font-bold">Desain Custom & Profesional</span> - Website sesuai identitas bisnis.</li>
             <li><span className="font-bold">Teknologi Terbaru</span> - Menggunakan tools modern.</li>

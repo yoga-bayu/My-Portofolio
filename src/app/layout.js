@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dev Nexus",
-  description: "Transforming Ideas into Code, and Code into Knowledge.",
+  title: "Fix Code",
+  description: "Fix Your Code, Fuel Your Growth",
 };
 
 export default function RootLayout({ children }) {
