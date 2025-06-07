@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import Head from 'next/head'
 
 const clients = [
   {
@@ -28,6 +29,10 @@ const clients = [
 
 const Clients = () => {
   return (
+    <>
+    <Head>
+      <title>Hubungi Fix Code | Konsultasi Gratis Jasa Coding Tangerang</title>
+    </Head>
     <section className="min-h-screen bg-white px-4 py-20" id="contact">
       <motion.h2
         className="text-3xl sm:text-4xl font-bold text-center text-gray-800"
@@ -65,6 +70,7 @@ const Clients = () => {
         *Logo hanya sebagai representasi inisial klien untuk menjaga privasi kerja sama.
       </p>
     </section>
+    </>
   )
 }
 

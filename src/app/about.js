@@ -23,6 +23,7 @@ export default function AboutSection() {
     <>
     <Head>
       <meta name="description" content="Kami menawarkan layanan pembuatan website dan aplikasi untuk UMKM, startup, dan perusahaan di Tangerang dan sekitarnya." />
+      <title>Tentang Fix Code | Tim Ahli Jasa Coding Tangerang</title>
     </Head>
     <section id="about" className="py-16 bg-white">
       {/* Judul About */}
