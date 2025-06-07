@@ -51,10 +51,13 @@ export default function Home() {
   <meta property="og:image:alt" content="Logo Fix Code - Solusi Layanan Digital & Teknologi Informasi" />
 
   {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Fix Code | Solusi Layanan Digital & Teknologi Informasi" />
-  <meta name="twitter:description" content="Layanan digital dan teknologi informasi profesional dari Fix Code." />
-  <meta name="twitter:image" content="https://www.fixcode.my.id/fixcodelogo.png" />
+  {/* Twitter Card */}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Fix Code | Solusi Layanan Digital & Teknologi Informasi" />
+<meta name="twitter:description" content="Layanan digital dan teknologi informasi profesional dari Fix Code." />
+<meta name="twitter:image" content="https://www.fixcode.my.id/fixcodelogo.png" />
+<meta name="twitter:image:alt" content="Logo Fix Code - Solusi Digital & TI" />
+<meta name="twitter:site" content="@Mobile200205" />  {/* Opsional, jika punya akun Twitter */}
 
   {/* Favicon & Canonical */}
   <link rel="icon" href="/favicon.ico" />
