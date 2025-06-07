@@ -45,13 +45,13 @@ export default function Home() {
   <meta property="og:description" content="Kami menyediakan layanan digital dan solusi teknologi informasi terpercaya untuk bisnis Anda." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.fixcode.my.id" /> {/* Ganti dengan URL kamu */}
-  <meta property="og:image" content="/fixcodelogo.png" /> {/* Ganti dengan gambar preview sosial media */}
+  <meta property="og:image" content="https://www.fixcode.my.id/fixcodelogo.png" /> {/* Ganti dengan gambar preview sosial media */}
 
   {/* Twitter Card (opsional tapi bagus) */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Fix Code | Solusi Layanan Digital & Teknologi Informasi" />
   <meta name="twitter:description" content="Layanan digital dan teknologi informasi profesional dari Fix Code." />
-  <meta name="twitter:image" content="/fixcodelogo.png" />
+  <meta name="twitter:image" content="https://www.fixcode.my.id/fixcodelogo.png" />
 
   <link rel="icon" href="/favicon.ico" />
     </Head>
