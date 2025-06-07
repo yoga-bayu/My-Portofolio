@@ -40,21 +40,27 @@ export default function Home() {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charSet="UTF-8" />
 
-  {/* Open Graph (untuk sosial media) */}
+  {/* Open Graph */}
   <meta property="og:title" content="Fix Code | Solusi Layanan Digital & Teknologi Informasi" />
   <meta property="og:description" content="Kami menyediakan layanan digital dan solusi teknologi informasi terpercaya untuk bisnis Anda." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.fixcode.my.id" /> {/* Ganti dengan URL kamu */}
-  <meta property="og:image" content="https://www.fixcode.my.id/fixcodelogo.png" /> {/* Ganti dengan gambar preview sosial media */}
+  <meta property="og:url" content="https://www.fixcode.my.id" />
+  <meta property="og:image" content="https://www.fixcode.my.id/fixcodelogo.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Logo Fix Code - Solusi Layanan Digital & Teknologi Informasi" />
 
-  {/* Twitter Card (opsional tapi bagus) */}
+  {/* Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Fix Code | Solusi Layanan Digital & Teknologi Informasi" />
   <meta name="twitter:description" content="Layanan digital dan teknologi informasi profesional dari Fix Code." />
   <meta name="twitter:image" content="https://www.fixcode.my.id/fixcodelogo.png" />
 
+  {/* Favicon & Canonical */}
   <link rel="icon" href="/favicon.ico" />
+  <link rel="canonical" href="https://www.fixcode.my.id" />
     </Head>
+
 
       
       <main>
