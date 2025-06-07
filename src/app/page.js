@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <>
       <Head>
-  <title>Fix Code | Solusi Layanan Digital & Teknologi Informasi</title>
+  <title>Jasa Ngoding Tangerang | Pembuatan Website & Aplikasi - Fix Code</title>
   <meta name="description" content="Fix Code adalah perusahaan yang bergerak di bidang layanan digital dan teknologi informasi seperti website, aplikasi, dan sistem IT." />
   <meta name="keywords" content="Fix Code, layanan digital, jasa IT, website, software, teknologi informasi" />
   <meta name="author" content="Fix Code Team" />
@@ -58,6 +58,8 @@ export default function Home() {
 <meta name="twitter:image" content="https://www.fixcode.my.id/fixcodelogo.png" />
 <meta name="twitter:image:alt" content="Logo Fix Code - Solusi Digital & TI" />
 <meta name="twitter:site" content="@Mobile200205" />  {/* Opsional, jika punya akun Twitter */}
+
+<meta name="description" content="Butuh jasa ngoding di Tangerang? Fix Code siap membantu Anda membuat website, aplikasi, dan solusi IT terbaik. Konsultasi gratis!" />
 
   {/* Favicon & Canonical */}
   <link rel="icon" href="/favicon.ico" />

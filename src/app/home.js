@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import Head from 'next/head'
 import { useState, useEffect } from 'react'
 import { FaInstagram, FaFacebookF, FaWhatsapp } from 'react-icons/fa'
 
@@ -41,6 +42,10 @@ const HomeSection = () => {
   }, [charIndex, isDeleting, profIndex, isClicked])
 
   return (
+    <>
+    <Head>
+      <meta name="description" content="Fix Code adalah jasa ngoding di Tangerang yang melayani pembuatan website, aplikasi, dan solusi digital." />
+    </Head>
     <section
       id="home"
       className="relative h-screen flex items-center justify-center px-4 sm:px-6 md:px-10 overflow-hidden"
@@ -176,6 +181,7 @@ const HomeSection = () => {
         )}
       </div>
     </section>
+    </>
   )
 }
 

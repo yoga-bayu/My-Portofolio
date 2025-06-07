@@ -1,5 +1,6 @@
 "use client"; // Tambahkan ini di baris pertama
 
+import Head from "next/head";
 import { useState, useEffect } from "react";
 
 export default function AboutSection() {
@@ -19,6 +20,10 @@ export default function AboutSection() {
   }, []);
 
   return (
+    <>
+    <Head>
+      <meta name="description" content="Kami menawarkan layanan pembuatan website dan aplikasi untuk UMKM, startup, dan perusahaan di Tangerang dan sekitarnya." />
+    </Head>
     <section id="about" className="py-16 bg-white">
       {/* Judul About */}
       <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
@@ -58,5 +63,6 @@ export default function AboutSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }
