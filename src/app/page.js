@@ -33,7 +33,6 @@ export default function Home() {
     <>
       <Head>
   <title>Jasa Ngoding Tangerang | Pembuatan Website & Aplikasi - Fix Code</title>
-  <meta name="description" content="Fix Code adalah perusahaan yang bergerak di bidang layanan digital dan teknologi informasi seperti website, aplikasi, dan sistem IT." />
   <meta name="keywords" content="Fix Code, layanan digital, jasa IT, website, software, teknologi informasi" />
   <meta name="author" content="Fix Code Team" />
   <meta name="robots" content="index, follow" />

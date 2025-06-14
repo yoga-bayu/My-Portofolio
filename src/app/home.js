@@ -43,68 +43,75 @@ const HomeSection = () => {
 
   return (
     <>
-    <Head>
-      <meta name="description" content="Fix Code adalah jasa ngoding di Tangerang yang melayani pembuatan website, aplikasi, dan solusi digital." />
-    </Head>
-    <section
-      id="home"
-      className="relative h-screen flex items-center justify-center px-4 sm:px-6 md:px-10 overflow-hidden"
-    >
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
-        autoPlay
-        muted
-        loop
-        playsInline
+      <Head>
+        <title>Fix Code - Jasa Ngoding Tangerang | Yoga Bayu</title>
+        <meta name="description" content="Fix Code adalah jasa ngoding di Tangerang yang melayani pembuatan website, aplikasi, dan solusi digital." />
+        <meta name="keywords" content="jasa ngoding Tangerang, jasa buat website Tangerang, freelance programmer Tangerang, Yoga Bayu" />
+        <meta name="author" content="Yoga Bayu" />
+      </Head>
+
+      <section
+        id="home"
+        className="relative h-screen flex items-center justify-center px-4 sm:px-6 md:px-10 overflow-hidden"
       >
-        <source src="/bg.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+        <video
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/bg.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-      <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-10" />
+        <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-10" />
 
-      <div className="relative z-20 w-full max-w-6xl mx-auto flex justify-center items-center">
-        {!isClicked ? (
-          <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 w-full">
-            <motion.div
-              className="flex-1 flex flex-col items-center md:items-start text-center md:text-left"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              <h1 className="text-base sm:text-lg md:text-xl text-white mb-1">Halo, It's Me</h1>
-              <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-2">Yoga Bayu</h2>
-              <h3 className="text-base sm:text-lg md:text-2xl font-semibold text-white mb-4">
-                And I am a{' '}
-                <span className="text-[#FFB100]">{currentText}</span>
-                <span className="ml-1 animate-pulse text-[#FFB100]">|</span>
-              </h3>
-              <p className="text-white text-sm sm:text-base max-w-xs sm:max-w-md">
-                Transforming Ideas into Code, and Code into Knowledge.
-              </p>
+        <div className="relative z-20 w-full max-w-6xl mx-auto flex justify-center items-center">
+          {!isClicked ? (
+            <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 w-full">
+              <motion.div
+                className="flex-1 flex flex-col items-center md:items-start text-center md:text-left"
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                {/* Tambahan SEO h1 */}
+                <h1 className="sr-only">Jasa Ngoding Tangerang - Pembuatan Website & Aplikasi oleh Fix Code</h1>
 
-              <div className="mt-6 flex gap-4 sm:gap-5">
-                <a href="https://www.instagram.com/yogabayu_20/" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
-                  <FaInstagram />
-                </a>
-                <a href="https://web.facebook.com/yoga.bayu.9279" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
-                  <FaFacebookF />
-                </a>
-                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
-                  <FaWhatsapp />
-                </a>
-              </div>
+                <h1 className="text-base sm:text-lg md:text-xl text-white mb-1">Halo, It's Me</h1>
+                <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-2">Yoga Bayu</h2>
+                <h3 className="text-base sm:text-lg md:text-2xl font-semibold text-white mb-4">
+                  And I am a{' '}
+                  <span className="text-[#FFB100]">{currentText}</span>
+                  <span className="ml-1 animate-pulse text-[#FFB100]">|</span>
+                </h3>
+                <p className="text-white text-sm sm:text-base max-w-xs sm:max-w-md">
+                  Transforming Ideas into Code, and Code into Knowledge.
+                </p>
 
-              <div className="mt-6">
-                <a
-                  href="/CV_Yoga_Bayu.pdf"
-                  download
-                  className="inline-block px-4 py-2 sm:px-6 sm:py-2 border-2 border-[#FFB100] text-[#FFB100] font-semibold rounded-md transition hover:bg-[#FFB100] hover:text-black hover:drop-shadow-[0_0_10px_#f59e0b]"
-                >
-                  Download CV
-                </a>
-              </div>
-            </motion.div>
+                <div className="mt-6 flex gap-4 sm:gap-5">
+                  <a href="https://www.instagram.com/yogabayu_20/" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
+                    <FaInstagram />
+                  </a>
+                  <a href="https://web.facebook.com/yoga.bayu.9279" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
+                    <FaFacebookF />
+                  </a>
+                  <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="text-[#FFB100] text-xl sm:text-2xl transition hover:drop-shadow-[0_0_10px_#f59e0b]">
+                    <FaWhatsapp />
+                  </a>
+                </div>
+
+                <div className="mt-6">
+                  <a
+                    href="/CV_Yoga_Bayu.pdf"
+                    download
+                    className="inline-block px-4 py-2 sm:px-6 sm:py-2 border-2 border-[#FFB100] text-[#FFB100] font-semibold rounded-md transition hover:bg-[#FFB100] hover:text-black hover:drop-shadow-[0_0_10px_#f59e0b]"
+                  >
+                    Download CV
+                  </a>
+                </div>
+              </motion.div>
 
             <motion.div
               className="flex-1 flex justify-center cursor-pointer"
