@@ -33,11 +33,14 @@ export default function About() {
               Fix Code - “Fix Your Code, Fuel Your Growth”
             </h2>
             <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
-              Fix Code adalah perusahaan yang bergerak di bidang layanan digital dan teknologi informasi, 
-              yang berfokus pada jasa pemrograman, perbaikan kode, digital marketing, SEO web, dan networking. 
-              Kami hadir untuk memberikan solusi inovatif bagi bisnis dan individu yang ingin berkembang di 
-              era digital dengan teknologi yang handal dan efektif.
+              Fix Code merupakan penyedia <strong>jasa ngoding di Tangerang</strong> yang bergerak di bidang layanan digital dan teknologi informasi. 
+              Kami berkomitmen untuk memberikan solusi profesional dalam pengembangan perangkat lunak, perbaikan kode, digital marketing, 
+              optimasi mesin pencari (SEO), serta layanan jaringan (networking). 
+              Dengan dukungan tim yang berpengalaman dan pemanfaatan teknologi terkini, kami hadir untuk membantu individu, UMKM, dan perusahaan 
+              dalam membangun fondasi digital yang kuat, efisien, dan berdaya saing tinggi. 
+              Fix Code percaya bahwa teknologi yang tepat dapat menjadi katalis pertumbuhan bisnis yang berkelanjutan di era transformasi digital saat ini.
             </p>
+
           </motion.div>
 
           {/* Gambar */}

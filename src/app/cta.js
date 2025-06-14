@@ -13,7 +13,7 @@ const CallToAction = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Siap untuk bekerja sama dan membangun sesuatu yang luar biasa?
+          Butuh Jasa Ngoding Profesional di Tangerang?
         </motion.h2>
 
         <motion.p
@@ -22,7 +22,17 @@ const CallToAction = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Mari diskusikan ide Anda dan wujudkan bersama saya!
+          <span className="block mb-2">
+            Fix Code siap membantu Anda membangun website, aplikasi, dan solusi digital yang optimal
+            untuk bisnis Anda.
+          </span>
+          <Link
+            href="/jasaNgodingTangerang"
+            className="underline font-semibold text-white hover:text-amber-200 transition-colors"
+          >
+            Pelajari layanan kami lebih lanjut
+          </Link>{' '}
+          atau langsung hubungi kami sekarang!
         </motion.p>
 
         <motion.div
@@ -34,7 +44,7 @@ const CallToAction = () => {
         >
           <Link href="https://wa.me/628138830020">
             <button className="bg-white text-amber-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-amber-100 transition">
-              Hubungi Saya
+              Konsultasi Sekarang via WhatsApp
             </button>
           </Link>
         </motion.div>
